@@ -1,0 +1,28 @@
+{
+  "name": "MeowDAO",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@chainlink/contracts": "^0.1.6",
+    "@openzeppelin/contracts": "^4.0.0",
+    "@openzeppelin/contracts-upgradeable": "^4.0.0"
+  },
+  "devDependencies": {
+    "@chainlink/belt": "^0.0.3",
+    "@chainlink/test-helpers": "0.0.5",
+    "@openzeppelin/test-helpers": "^0.5.10",
+    "@openzeppelin/truffle-upgrades": "^1.5.0",
+    "@truffle/hdwallet-provider": "1.2.1",
+    "chai": "^4.3.4"
+  }
+}
